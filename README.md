@@ -79,7 +79,7 @@ ____________
 - clone the repo :
 
 ```bash
-    git clone https://github.com/LGD-P/Vsix-Getter.git
+    git clone https://github.com/LGD-P/Vsix-Getter-CLI.git
     cd VSIX-GETTER
 ```
 
