@@ -1,0 +1,2 @@
+https://marketplace.visualstudio.com/items?itemName=ms-python.pylint
+https://marketplace.visualstudio.com/items?itemName=fnando.linter
