@@ -1,13 +1,13 @@
 
 <p align=center>
-    <img src='assets/logo.ico'>
+    <img src='assets/logo.ico' width="250px>
 <p>
 
 - This is a simple CLI tool to get your VsCode VSIX files extension : 
 
 ## 1\ From your current VsCode :
 
-- You can download from the extract list of your current vscode  : 
+- You can export a list of your currently installed extensions from VSCode : 
 ```bash
     code --list-extensions --show-versions | tail -n+2  > ext_list.txt
 ```
@@ -22,38 +22,61 @@
 
 ## 2\ From a url list : 
 
-- You can download from a list you've made and named `url_list_file.txt` : 
+- You can download extensions from a list you've created and saved in `url_list_file.txt` : 
+
 ```txt
     https://marketplace.visualstudio.com/items?itemName=ms-python.pylint
     https://marketplace.visualstudio.com/items?itemName=fnando.linter
 ```
 
 ## 3\ From a single url :
-- Finally you can download a single extension direclty from maketplace url 
-
+- Finally, you can download a single extension directly from its marketplace URL 
 
 
 *Every download is stored in your current dir under `VSIX-DL/` dir*
 
 ____________
 
-- You can then install you favorite plugin :
+- After downloading, you can then install your favorite extensions :
 
 <p align=center>
-    <img src="assets/install_vsix.png" width="250px">
+    <img src="assets/install_vsix.png" width="450px">
 </p>
 
 
 ____________
 
-- You can look at the help menu : 
+- You can view the help menu : 
 
 <p align=center>
-    <img src="assets/help_menu.png" width="500px">
+    <img src="assets/help_menu.png" width="850px">
 </p>
 
-*look into the .txt on the repo ton find format list exemple.*
+*Check the .txt files in the repo to find example formats.*
 
 ____________
 
 
+## Install : 
+
+- clone the repo :
+
+```bash
+    git clone https://github.com/LGD-P/Vsix-Getter.git
+    cd VSIX-GETTER
+```
+
+- Create and activate the env
+
+```bash
+    python3 -m venv env 
+    source env/bin/activate
+```
+
+- Install Dependencies : 
+
+```bash
+    pip install -r requirements.txt
+```
+
+You're ready to go ! 
