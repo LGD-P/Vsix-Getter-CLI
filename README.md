@@ -1,6 +1,6 @@
 
 <p align=center>
-    <img src='assets/logo.ico' width="250px>
+    <img src='assets/logo.ico' width="250px">
 </p>
 
 - This is a simple CLI tool to get your VsCode VSIX files extension : 
